@@ -3,8 +3,13 @@ print("Welcome to Mokshs Store!!")
 items = {
     "mushroom": 2.50,
     "carrot": 1.00,
-    "apple": 1.50
+    "apple": 1.50,
+    "banana": 0.75,
+    "orange": 1.20,
+    "bread": 2.00,
+    "milk": 1.80
 }
+
 cart = {}
 
 def show_items():
@@ -41,9 +46,10 @@ def checkout():
         view_cart()
         print("Thanks for shopping!")
 
-
+# Example usage:
 show_items()
 add_to_cart("mushroom", 2)
 add_to_cart("apple", 3)
+add_to_cart("banana", 5)
 view_cart()
 checkout()
