@@ -1,4 +1,7 @@
 print("Welcome to Mokshs Store!!")
+print("Here at Mokshs Store, we offer a variety of fresh items including:")
+print("Mushroom, Carrot, Apple, Banana, Orange, Bread, and Milk")
+print("-" * 50)
 
 items = {
     "mushroom": 2.50,
